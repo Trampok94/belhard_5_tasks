@@ -7,6 +7,9 @@
 
 
 def not_3(array: list) -> list:
+    for i in enumerate(array):
+        if i[1] % 3 == 0:
+            array.pop(i[0])
     return array
 
 
