@@ -5,7 +5,7 @@ from tasks.easy.if_elif_else.replacer import replacer
 
 @pytest.mark.parametrize(
     "check_str, search_str, replace_str, expected", [
-        ("как у тебя дела", "у тебя", "твои", "Как твои дела"),
+        ("как у тебя дела", "у тебя", "твои", "как твои дела"),
         ("что делаешь", "ты", "мы", "Ошибка!"),
     ]
 )
